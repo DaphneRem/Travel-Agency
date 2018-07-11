@@ -1,0 +1,25 @@
+<mat-card class="card-creation">
+  <mat-card-title>Card Creation</mat-card-title>
+  <div class="form-group">
+    <mat-form-field>
+      <input matInput placeholder="Titre" [(ngModel)]="newCard.title">
+    </mat-form-field>
+    
+    <mat-form-field>
+      <input matInput placeholder="Sous-titre" [(ngModel)]="newCard.subTitle">
+    </mat-form-field>
+    
+    <mat-form-field>
+      <input matInput placeholder="Image" [(ngModel)]="newCard.urlImage">
+    </mat-form-field>
+    <button mat-raised-button color="warn" (click)="preview(newCard)">Preview</button>
+    <!-- <button mat-raised-button color="warn" (click)="addCard(newCard)">Create</button> -->
+  </div>
+</mat-card>
+
+<div *ngIf="previewCard">
+  oui
+</div>
+
+
+<pre>{{newCard | json }}</pre>

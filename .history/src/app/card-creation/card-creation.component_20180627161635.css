@@ -1,0 +1,34 @@
+.creation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-creation {
+    margin : 20px;
+    max-width: 400px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.form-group {
+   display: flex;
+flex-direction: column; 
+}
+
+ img {
+     height: 300px;
+ }
+.card {
+  max-width: 400px;
+  margin : 10px;
+}
+
+.header-image {
+  background-image: url('https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-instagram-profile-icon-by-vexels.png');
+  background-size: cover;
+}
+
+button {
+    border: 1px #dadada solid;
+}

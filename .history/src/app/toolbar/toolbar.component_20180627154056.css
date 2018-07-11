@@ -1,0 +1,14 @@
+.spacer {
+    flex: 1 1 auto;
+}
+.links {
+    background: red;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: red
+}

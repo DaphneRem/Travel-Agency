@@ -1,0 +1,6 @@
+
+.card-creation {
+  max-width: 400px;
+    display: flex;
+  flex-direction: column;
+}

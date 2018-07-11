@@ -1,0 +1,18 @@
+.spacer {
+    flex: 1 1 auto;
+}
+.links {
+    background: red;
+    height: 100%;
+    padding : 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: red
+}
